@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@300;400;500;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-black: #050505;
+  --color-wine: #6B0D1A;
+  --color-wine-dark: #3A050D;
+  --color-gold: #DAAF37;
+  --color-gray-dark: #1A1A1A;
+  --color-gray-light: #F0F0F0;
+
+  --font-display: "Outfit", sans-serif;
+  --font-body: "Inter", sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+  
+  body {
+    @apply bg-black text-gray-light font-body antialiased;
+  }
+  
+  @media (pointer: fine) {
+    body {
+      cursor: none;
+    }
+    a, button {
+      cursor: none;
+    }
+  }
+  
+  ::selection {
+    @apply bg-wine/80 text-white;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+}
+
+@layer utilities {
+  .text-stroke-gold {
+    -webkit-text-stroke: 1px rgba(218, 175, 55, 0.4);
+    -webkit-text-fill-color: transparent;
+  }
+  .text-stroke-wine {
+    -webkit-text-stroke: 1px rgba(107, 13, 26, 0.5);
+    -webkit-text-fill-color: transparent;
+  }
+  .text-stroke-white {
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.1);
+    -webkit-text-fill-color: transparent;
+  }
+  .animate-coolDown {
+    animation: coolDown 5s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+  }
+  
+  @keyframes coolDown {
+    0% { 
+      color: #ffffff; 
+      text-shadow: 0 0 40px #ffffff, 0 0 60px #E74C60, 0 0 100px #6B0D1A; 
+      opacity: 1; 
+      transform: scale(1.1) translateY(-2px);
+    }
+    10% {
+      color: #ffffff;
+      text-shadow: 0 0 20px #E74C60, 0 0 40px #6B0D1A;
+      transform: scale(1) translateY(0);
+    }
+    25% { 
+      color: #D32F44; 
+      text-shadow: 0 0 12px #D32F44, 0 0 20px #6B0D1A; 
+    }
+    50% {
+      color: #8B1525;
+      text-shadow: 0 0 5px #3A050D;
+    }
+    100% { 
+      color: rgba(220, 220, 220, 0.8); 
+      text-shadow: none; 
+      opacity: 1; 
+    }
+  }
+}
