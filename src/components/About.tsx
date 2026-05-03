@@ -22,7 +22,7 @@ export default function About() {
             Somos <strong className="text-[#E74C60] font-medium drop-shadow-[0_0_10px_rgba(107,13,26,0.6)]">Os Vingadores, Paz e Justiça</strong>. Inspirados pela força da Fênix, unimos corações e ações para promover os Objetivos de Desenvolvimento Sustentável.
           </p>
           <p className="text-lg md:text-xl text-gray-light/60 font-light leading-relaxed max-w-xl">
-            Nosso foco é o <strong className="text-white font-normal">ODS 16 – Paz, Justiça e Instituições Eficazes</strong>. Cada desafio é uma oportunidade de renascer mais fortes e impactar positivamente o mundo ao nosso redor.
+            Nosso foco é o <strong className="text-white font-normal">ODS 18 – Igualdade Étnico-Racial</strong>. Cada desafio é uma oportunidade de combater o racismo, fortalecer a justiça e impactar positivamente o mundo ao nosso redor.
           </p>
         </motion.div>
 

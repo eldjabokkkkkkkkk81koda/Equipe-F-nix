@@ -81,7 +81,7 @@ export default function UnionBonfire() {
           transition={{ duration: 1, delay: 0.4 }}
           className="text-gray-400 font-body font-light text-sm md:text-base leading-relaxed mb-12"
         >
-          Um espaço criado para fortalecer nossos laços, aquecer nossos propósitos e celebrar a união de todos que fazem parte desta jornada. A chama só se mantém viva quando estamos juntos.
+          Um espaço criado para fortalecer nossos laços, aquecer nossos propósitos e celebrar a união de todos que fazem parte desta jornada. A chama só se mantém viva quando estamos juntos — e quando cada origem é respeitada, cada voz é valorizada e a igualdade é promovida.
         </motion.p>
 
         <div className="relative group">
