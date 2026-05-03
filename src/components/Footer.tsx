@@ -1,4 +1,4 @@
-import { Instagram, Linkedin, Twitter, Facebook } from "lucide-react";
+import { Instagram } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -19,23 +19,28 @@ export default function Footer() {
             <span className="sr-only">Instagram</span>
           </a>
           <a href="#" className="p-2 text-gray-light/50 hover:text-[#E74C60] hover:bg-wine/10 rounded-full transition-all duration-300">
-            <Twitter className="w-5 h-5" strokeWidth={1.5} />
-            <span className="sr-only">Twitter</span>
-          </a>
-          <a href="#" className="p-2 text-gray-light/50 hover:text-[#E74C60] hover:bg-wine/10 rounded-full transition-all duration-300">
-            <Facebook className="w-5 h-5" strokeWidth={1.5} />
-            <span className="sr-only">Facebook</span>
-          </a>
-          <a href="#" className="p-2 text-gray-light/50 hover:text-[#E74C60] hover:bg-wine/10 rounded-full transition-all duration-300">
-            <Linkedin className="w-5 h-5" strokeWidth={1.5} />
-            <span className="sr-only">LinkedIn</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="w-5 h-5"
+            >
+              <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5" />
+            </svg>
+            <span className="sr-only">TikTok</span>
           </a>
         </div>
       </div>
       
       <div className="max-w-7xl mx-auto mt-16 pt-8 border-t border-white/5 text-center flex flex-col md:flex-row justify-between items-center gap-6 text-xs text-gray-light/30">
         <p>&copy; {new Date().getFullYear()} Os Vingadores. Todos os direitos reservados.</p>
-        <p className="tracking-widest uppercase">ODS 16 &mdash; Paz e Justiça</p>
+        <p className="tracking-widest uppercase">ODS 18 &mdash; Igualdade Étnico-Racial</p>
       </div>
     </footer>
   );
