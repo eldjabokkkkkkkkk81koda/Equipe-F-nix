@@ -8,7 +8,7 @@ export default function UnionBonfire() {
   const [isHeatingUp, setIsHeatingUp] = useState(false);
 
   // Link provisionório para facilitar a substituição posterior
-  const redirectLink = "https://fogueira.netlify.app/"; 
+  const redirectLink = "https://fogueira.vingadores.workers.dev/"; 
 
   const handleIgnite = (e: React.MouseEvent) => {
     e.preventDefault();

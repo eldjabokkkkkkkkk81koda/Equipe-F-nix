@@ -39,7 +39,7 @@ export default function Header() {
           
           <nav className="hidden md:flex items-center gap-8">
             <a 
-              href="https://linhagem.netlify.app/"
+              href="https://linhagem.vingadores.workers.dev/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm font-body tracking-[0.15em] text-gray-light/40 hover:text-gray-light/80 hover:scale-105 transition-all duration-300"
@@ -85,7 +85,7 @@ export default function Header() {
             </button>
             <nav className="flex flex-col items-center gap-10">
               <a 
-                href="https://linhagem.netlify.app/" 
+                href="https://linhagem.vingadores.workers.dev/" 
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setMobileMenuOpen(false)}

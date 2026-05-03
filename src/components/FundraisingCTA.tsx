@@ -84,7 +84,7 @@ export default function FundraisingCTA() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 1, delay: 0.6 }}
-          href="https://coletainfoa.netlify.app/" 
+          href="https://coleta.vingadores.workers.dev/" 
           target="_blank" 
           rel="noopener noreferrer"
           className="group relative inline-flex items-center gap-4 justify-center px-12 py-6 bg-[#6B0D1A] text-white font-body font-normal text-lg tracking-[0.15em] hover:bg-[#8B1525] transition-all duration-500 overflow-hidden"
